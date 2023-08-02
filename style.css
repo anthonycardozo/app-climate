@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #87ceeb;
+}
+
+.box-climate{
+    background-color: black;
+    opacity: 0.8;
+    padding: 30px;
+    border-radius: 25px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.city-name{
+    border: none;
+    outline: none;
+    background-color: #242b2d;
+    color: white;
+    width: calc(100% - 70px);
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 25px;
+}
+
+.button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 50px;
+    border-radius: 50%;
+    background-color: #242b2d;
+    cursor: pointer;
+    float: right;
+}
+
+.button img{
+    width: 30px;
+}
+
+.box-medium {
+    margin-top: 30px;
+}
+
+.city {
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.temp{
+    font-size: 23px;
+    color: white;
+    margin-top: 20px;
+}
+
+.box-small {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.box-small p {
+    margin-left: 10px;
+}
+
+.umidade {
+    color: white;
+    margin-top: 20px;
+}
+
+.prev {
+    text-transform: capitalize;
+}
+
+.min-max {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.max-temp {
+    margin-left: 10px;
+}
